@@ -32,9 +32,9 @@ const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaFacebook className='cursor-pointer' size={20} />
-                        <FaInstagram className='cursor-pointer' size={20}/>
-                        <FaLinkedin className='cursor-pointer' size={20}/>
+                        <a href="https://facebook.com/Salva.Gariglio/"><FaFacebook className='cursor-pointer' size={20} /></a>
+                        <a href="https://www.instagram.com/salvagariglio/"><FaInstagram className='cursor-pointer' size={20}/></a>
+                        <a href="https://www.linkedin.com/in/salvadorgariglio/"><FaLinkedin className='cursor-pointer' size={20}/></a>
                     </div>
                 </div>
             </div>

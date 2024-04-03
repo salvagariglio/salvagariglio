@@ -9,6 +9,7 @@ function App() {
     <div>
       <Sidenav/>
       <Main/>
+      <Projects/>
       <Contact />
     </div>
   )
