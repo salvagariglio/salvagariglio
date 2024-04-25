@@ -4,7 +4,7 @@ import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail} from 'rea
 import {GrProjects} from 'react-icons/gr'
 import {BsPerson} from 'react-icons/bs'
 
-const Sidenav = () => {
+const SideNav = () => {
     const [nav , setNav] = useState(false);
     const handleNav = () => {
         setNav(!nav);
@@ -57,4 +57,4 @@ const Sidenav = () => {
     );
 };
 
-export default Sidenav;
+export default SideNav;

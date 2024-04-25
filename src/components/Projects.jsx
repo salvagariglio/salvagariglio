@@ -10,14 +10,14 @@ const Projects = () => {
             <h1 className='text-4xl font-sans text-center text-[#001b5e] dark:text-white'>
                 Projects
             </h1>
-            <p className='text-center py-8 dark:text-gray-100'>
-                Espero que mis proyectos te inspiren como a mi y den una idea de lo que puedo aportar a tu empresa
+            <p className='text-center text-[#001b5e] py-8 dark:text-gray-100'>
+                Espero que mis proyectos te inspiren como a mi y den una idea de lo que puedo aportar a tu empresa.
             </p>
             <article className='justify-center grid sm:grid-cols-2 gap-12 p-6'>
-                <ProyectItem img={Landing1} title='Proyecto 1'/>
-                <ProyectItem img={Landing2} title='Proyecto 2'/>
-                <ProyectItem img={Landing3} title='Proyecto 3'/>
-                <ProyectItem img={Landing3} title='Proyecto 4'/>
+                <ProyectItem img={Landing1} tools='React - Javascript - Tailwind CSS' title='RIO REP'/>
+                <ProyectItem img={Landing2} tools='React - Javascript - Tailwind CSS - Redux'  title='Amazon 2.0'/>
+                <ProyectItem img={Landing3} tools='React - Javascript - Tailwind CSS'  title='Golfo La Velada'/>
+                <ProyectItem img={Landing3} tools=''  title=''/>
             </article>
         </section>
     )
