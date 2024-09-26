@@ -29,7 +29,7 @@ const Contact = ()=> {
                     <div className='flex flex-col py-2'>
                         <textarea className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 min-h-20 dark:border-0  dark:text-purple-900' rows='10' placeholder='Message' required></textarea>
                     </div>
-                    <button className='bg-[#001b5e] border-2 text-gray-100 mt-4 w-full p-4 rounded-lg dark:hover:bg-purple-300 dark:bg-gray-50 dark:text-purple-900 '>
+                    <button className='bg-[#001b5e] border-0 text-gray-100 mt-4 w-full p-4 rounded-3xl dark:hover:bg-purple-300 dark:bg-gray-50 dark:text-purple-900 '>
                         Send Message
                     </button>
                 </form>
