@@ -1,7 +1,8 @@
 import ProjectItem from './ProjectItem'
-import Landing1 from '../assets/landing1.png'
-import Landing2 from '../assets/landing2.png'
-import Landing3 from '../assets/landing3.png'
+import Landing1 from '../assets/Captura2.png'
+import Landing2 from '../assets/Captura.png'
+import Landing3 from '../assets/Captura3.png'
+import Landing from '../assets/landing1.png'
 import { motion } from 'framer-motion'
 
 const Projects = () => {
@@ -26,25 +27,27 @@ const Projects = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.5 }}>
-                    <ProjectItem img={Landing1} tools='React - Javascript - Tailwind CSS' title='RIO REP' />
+                    <ProjectItem
+                        linkPage="https://rio-rep.vercel.app/" linkCode='https://github.com/salvagariglio/rio-rep' img={Landing1} tools='React - Javascript - Tailwind CSS' title='RIO REP' />
                 </motion.div>
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}>
-                    <ProjectItem img={Landing2} tools='React - Javascript - Tailwind CSS - Redux' title='Amazon 2.0' />
+                    <ProjectItem
+                        linkPage='https://shop-proyect.vercel.app/' img={Landing2} linkCode='https://github.com/salvagariglio/shop-proyect' tools='React - Javascript - Tailwind CSS - Redux' title='Amazon 2.0' />
                 </motion.div>
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.5 }}>
-                    <ProjectItem img={Landing3} tools='React - Javascript - Tailwind CSS' title='Golfo La Velada' />
+                    <ProjectItem img={Landing} tools='React - Javascript - Tailwind CSS' title='Golfo La Velada' />
                 </motion.div>
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}>
-                    <ProjectItem img={Landing3} tools='' title='' />
+                    <ProjectItem linkCode='https://github.com/salvagariglio/store-css' linkPage='https://store-css.vercel.app/' img={Landing3} tools='React - CSS' title='Food Store CSS Only' />
                 </motion.div>
             </article>
         </section>
