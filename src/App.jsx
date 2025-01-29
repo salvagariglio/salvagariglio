@@ -1,5 +1,5 @@
 import DarkMode from './components/DarkMode.jsx'
-import SideNav from './components/SideNav.jsx'
+import SideNav from './components/SideNavigation.jsx'
 import Main from './components/Main.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
