@@ -1,9 +1,9 @@
+import DarkMode from './components/DarkMode.jsx'
 import SideNav from './components/SideNav.jsx'
 import Main from './components/Main.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 import Contact from './components/Contact.jsx'
-import DarkMode from './components/DarkMode.jsx'
 
 function App() {
   return (
