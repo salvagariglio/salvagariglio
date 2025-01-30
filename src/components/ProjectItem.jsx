@@ -10,7 +10,7 @@ const ProjectItem = ({ img, title, tools, linkCode, linkPage }) => {
                         <h3 className='py-2 text-2xl font-bold text-white tracking-wider text-center'>
                             {title}
                         </h3>
-                        <p className='py-2 text-white text-center'>
+                        <p className='py-2 px-4 text-white text-center'>
                             {tools}
                         </p>
                         <div className=' py-2 gap-4 items-center justify-center flex'>

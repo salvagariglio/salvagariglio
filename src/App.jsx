@@ -7,13 +7,16 @@ import Contact from './components/Contact.jsx'
 
 function App() {
   return (
-    <div className=' bg-gray-50 dark:bg-gradient-to-r from-purple-700 to-purple-950'>
+    <div className='  bg-gray-50 dark:bg-gradient-to-r from-purple-700 to-purple-950'>
       <DarkMode />
       <SideNav />
-      <Main />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div>
+        <Main />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+
     </div>
   )
 }

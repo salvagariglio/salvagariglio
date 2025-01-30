@@ -1,30 +1,30 @@
 import React from 'react'
 import { GrContact } from 'react-icons/gr'
 
-const Contact = ()=> {
+const Contact = () => {
     return (
         <div className='flex dark:text-gray-100'>
             <div className='hidden md:block m-auto text-[#001b5e] dark:text-gray-100'>
-                <GrContact size={250}/>
+                <GrContact size={250} />
             </div>
             <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 w-full md:w-1/2'>
-                <h1 className='py-4 text-4xl font-sans text-center text-[#001b5e] dark:text-gray-100'>
+                <h1 className='mb-12 text-4xl font-semibold text-center text-[#001b5e] dark:text-white'>
                     Contact Me
                 </h1>
                 <form action='https://getform.io/f/pamqklda' method='POST' encType='multipart/forms-data'>
                     <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                         <div className='flex flex-col'>
-                            <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Name' required/>
+                            <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Name' required />
                         </div>
                     </div>
                     <div className='flex flex-col'>
-                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Phone' required/>
+                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Phone' required />
                     </div>
                     <div className='flex flex-col py-2'>
-                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='email' placeholder='Email' required/>
+                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='email' placeholder='Email' required />
                     </div>
                     <div className='flex flex-col py-2'>
-                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Subject' required/>
+                        <input className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 dark:border-0  dark:text-purple-900' type='text' placeholder='Subject' required />
                     </div>
                     <div className='flex flex-col py-2'>
                         <textarea className=' rounded-lg p-3 flex text-[#001b5e] border border-[#001b5e] placeholder-[#001b5e] dark:placeholder-purple-900 min-h-20 dark:border-0  dark:text-purple-900' rows='10' placeholder='Message' required></textarea>

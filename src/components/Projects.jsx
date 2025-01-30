@@ -12,7 +12,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
-                className='text-4xl font-sans text-center text-[#001b5e] dark:text-white'>
+                className='mb-12 text-4xl font-semibold text-center text-[#001b5e] dark:text-white'>
                 Projects
             </motion.h1>
             <motion.p
@@ -20,7 +20,7 @@ const Projects = () => {
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1.5 }}
                 className='text-center text-[#001b5e] py-8 dark:text-gray-100'>
-                Espero que mis proyectos te inspiren como a mi y den una idea de lo que puedo aportar a tu empresa.
+                I hope my projects inspire you as much as they inspire me and give you an idea of what I can contribute to your company.
             </motion.p>
             <article className='justify-center items-center grid sm:grid-cols-2 gap-12 p-6'>
                 <motion.div
@@ -41,7 +41,7 @@ const Projects = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.5 }}>
-                    <ProjectItem img={Landing} tools='React - Javascript - Tailwind CSS' title='Golfo La Velada' />
+                    <ProjectItem img={Landing} tools='React Native - React - Javascript - Tailwind CSS - Python - MySQL' title='Aesthetic' />
                 </motion.div>
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
