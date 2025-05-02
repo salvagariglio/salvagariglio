@@ -8,8 +8,9 @@ const Main = () => {
     return (
         <div className='' id='main'>
             <img
-                className='w-full h-screen object-cover object-center '
-                src={background} ></img>
+                className='w-full h-screen object-cover object-[70%]'
+                src={background}
+            />
             <div className='flex justify-center items-center w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full font-sans w-full flex flex-col justify-center  items-center'>
                     <h1 className=' sm:text-5xl text-4xl text-gray-800 dark:text-purple-950'> Salvador Gariglio </h1>
@@ -17,14 +18,10 @@ const Main = () => {
                         I'm a
                         <TypeAnimation
                             sequence={[
-                                'Developer',
-                                2000,
-                                'Coder',
-                                2000,
-                                'Tech Enthusiast',
+                                'Full-Stack Developer',
                                 2000,
                                 'Engineering Student',
-                                2000
+                                2000,
                             ]}
                             wrapper="span"
                             cursor={true}
@@ -33,10 +30,14 @@ const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-center items-center pt-6 max-w-[200px] gap-5 w-full dark:text-purple-950'>
-                        <button className='flex justify-center text-gray-100 items-center gap-2 bg-gray-800 dark:bg-purple-900 rounded-2xl px-5 py-1  hover:scale-105 ease-in duration-300 '>
+                        <a
+                            href="/CV-SalvadorGariglio.pdf"
+                            download
+                            className='flex justify-center text-gray-100 items-center gap-2 bg-gray-800 dark:bg-purple-900 rounded-2xl px-5 py-1 hover:scale-105 ease-in duration-300'
+                        >
                             <FaDownload size={20} />
                             Download
-                        </button>
+                        </a>
                         <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1 hover:scale-110 ease-in duration-300  '>
                             <a href="https://www.linkedin.com/in/salvadorgariglio/"
                                 className='flex justify-center items-center gap-2 text-gray-100 '>

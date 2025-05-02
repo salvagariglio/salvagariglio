@@ -28,7 +28,7 @@ const Projects = () => {
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.5 }}>
                     <ProjectItem
-                        linkPage="https://rio-rep.vercel.app/" linkCode='https://github.com/salvagariglio/rio-rep' img={Landing1} tools='React - Javascript - Tailwind CSS' title='RIO REP' />
+                        linkPage="https://riorep.com.ar/" linkCode='https://github.com/salvagariglio/riorepPage' img={Landing1} tools='React - Javascript - Tailwind CSS' title='RIO REP' />
                 </motion.div>
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
@@ -43,12 +43,7 @@ const Projects = () => {
                     transition={{ duration: 1.5 }}>
                     <ProjectItem img={Landing} tools='React Native - React - Javascript - Tailwind CSS - Python - MySQL' title='Aesthetic' />
                 </motion.div>
-                <motion.div
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: 100 }}
-                    transition={{ duration: 1.5 }}>
-                    <ProjectItem linkCode='https://github.com/salvagariglio/store-css' linkPage='https://store-css.vercel.app/' img={Landing3} tools='React - CSS' title='Food Store CSS Only' />
-                </motion.div>
+
             </article>
         </section>
     )
