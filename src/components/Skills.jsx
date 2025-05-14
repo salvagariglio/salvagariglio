@@ -25,7 +25,7 @@ const Skills = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -50 }}
                 transition={{ duration: 1.5 }}
-                className='mb-12 text-4xl font-semibold text-center text-[#001b5e] dark:text-white'
+                className='mb-12 md:text-5xl text-4xl font-semibold text-center text-[#001b5e] dark:text-white'
             >
                 Technologies
             </motion.h2>

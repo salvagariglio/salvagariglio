@@ -24,9 +24,9 @@ const DarkMode = () => {
 
     return (
         <div>
-            <button className=' bg-transparent shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300 z-10 p-2 rounded-full fixed top-4 right-4 text-neutral-900 dark:text-white dark:bg-purple-950'
+            <button className=' bg-transparent shadow-lg shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300 z-10 p-2 rounded-full fixed md:top-6 md:right-6 top-4 right-4 text-neutral-900 dark:text-white dark:bg-purple-950'
                 onClick={handleChangeTheme}>
-                <MdOutlineDarkMode />
+                <MdOutlineDarkMode className='md:h-7 md:w-7 h-6 w-6 ease-in duration-300' />
             </button>
         </div>
     )

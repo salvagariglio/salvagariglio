@@ -3,11 +3,11 @@ import { GrContact } from 'react-icons/gr'
 
 const Contact = () => {
     return (
-        <div className='flex dark:text-gray-100'>
-            <div className='hidden md:block m-auto text-[#001b5e] dark:text-gray-100'>
+        <div className='flex  dark:text-gray-100'>
+            <div className='hidden lg:block m-auto text-[#001b5e] dark:text-gray-100'>
                 <GrContact size={250} />
             </div>
-            <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 w-full md:w-1/2'>
+            <div id='contact' className='max-w-[1040px] m-auto md:pl-20 px-8 py-16 w-full md:w-1/2 ease-in-out duration-500'>
                 <h1 className='mb-12 text-4xl font-semibold text-center text-[#001b5e] dark:text-white'>
                     Contact Me
                 </h1>

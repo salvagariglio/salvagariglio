@@ -13,8 +13,8 @@ const Main = () => {
             />
             <div className='flex justify-center items-center w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full font-sans w-full flex flex-col justify-center  items-center'>
-                    <h1 className=' sm:text-5xl text-4xl text-gray-800 dark:text-purple-950'> Salvador Gariglio </h1>
-                    <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 dark:text-purple-900'>
+                    <h1 className=' sm:text-5xl text-4xl text-gray-800 dark:text-purple-950  ease-in duration-300'> Salvador Gariglio </h1>
+                    <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 dark:text-purple-900  ease-in duration-300'>
                         I'm a
                         <TypeAnimation
                             sequence={[
@@ -33,27 +33,27 @@ const Main = () => {
                         <a
                             href="/CV-SalvadorGariglio.pdf"
                             download
-                            className='flex justify-center text-gray-100 items-center gap-2 bg-gray-800 dark:bg-purple-900 rounded-2xl px-5 py-1 hover:scale-105 ease-in duration-300'
+                            className='flex justify-center text-lg md:text-xl text-gray-100 items-center gap-2 bg-gray-800 dark:bg-purple-900 rounded-2xl px-5  py-1.5 hover:scale-105 ease-in duration-300'
                         >
                             <FaDownload size={20} />
                             Download
                         </a>
-                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1 hover:scale-110 ease-in duration-300  '>
+                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1.5 hover:scale-110 ease-in duration-300  '>
                             <a href="https://www.linkedin.com/in/salvadorgariglio/"
                                 className='flex justify-center items-center gap-2 text-gray-100 '>
-                                <FaLinkedin className='cursor-pointer' size={20} />
+                                <FaLinkedin className='cursor-pointer' size={24} />
                             </a>
                         </button>
-                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1 hover:scale-110 ease-in duration-300   '>
+                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1.5 hover:scale-110 ease-in duration-300   '>
                             <a href="https://www.instagram.com/salvagariglio/"
                                 className='flex justify-center items-center gap-2 text-gray-100'>
-                                <FaInstagram className='cursor-pointer' size={20} />
+                                <FaInstagram className='cursor-pointer' size={24} />
                             </a>
                         </button>
-                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1 hover:scale-110 ease-in duration-300 '>
+                        <button className=' bg-gray-800 dark:bg-purple-900 rounded-full p-1.5 hover:scale-110 ease-in duration-300 '>
                             <a href="https://github.com/salvagariglio"
                                 className='flex justify-center items-center gap-2 text-gray-100'>
-                                <FaGithub className='cursor-pointer' size={20} />
+                                <FaGithub className='cursor-pointer' size={24} />
                             </a>
                         </button>
                     </div>
